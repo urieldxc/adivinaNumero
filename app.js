@@ -79,6 +79,8 @@
         var botonActualizar = document.createElement("button");
         botonActualizar.innerHTML = "Volver a Jugar";
         body.appendChild(botonActualizar);
+        botonActualizar.classList.add("boton-actualizar");
+        fallos.style.display ="none";
 
         botonActualizar.addEventListener ("click", function() {
             window.location.reload();
